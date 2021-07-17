@@ -227,11 +227,6 @@ a {
 
     margin-bottom: 82px;
 }
-@media (max-width: 466px) {
-    .team__member {
-        width: 100%;
-    }
-}
 .team__img {
     margin-bottom: 12px;
 }
@@ -285,6 +280,18 @@ a {
     color: #fff;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .team__member {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .team__member {
+        width: 50%;
+    }
+}
 
 
 
